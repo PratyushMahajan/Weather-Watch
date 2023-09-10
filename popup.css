@@ -1,0 +1,125 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #faf1f1;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10%; /* Adjust the margin for smaller screens */
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 14px;
+  margin-left: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid #ccc;
+  outline: none;
+  width: 180px; /* Adjust the input width as needed */
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 14px;
+  background-color: #007bff;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+}
+
+.img1 {
+  margin-left: 20% ;
+}
+
+.img2 {
+  margin-left: 18% ;
+}
+
+.img3 {
+  margin-left: 19% ;
+}
+
+.abc {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.span1 {
+  margin-left: 20% ;
+}
+
+.span2 {
+  margin-left: 20% ;
+}
+
+.span3 {
+  margin-left: 16% ;
+}
+
+/* Media Query for Smaller Screens (e.g., tablets and mobile devices) */
+@media (max-width: 768px) {
+  .popup-container {
+    flex-direction: row;
+    margin-left: 0;
+    align-items: center;
+  }
+
+  input[type="text"] {
+    width: 55%; /* Input will take the full width */
+    margin-left: 23%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid #ccc;
+    outline: none;
+    width: 180px;
+  }
+
+  .img1 {
+    margin-left: 13% ;
+  }
+  
+  .img2 {
+    margin-left: 14% ;
+  }
+  
+  .img3 {
+    margin-left: 16% ;
+  }
+  
+  .span1 {
+    margin-left: 15% ;
+  }
+  
+  .span2 {
+    margin-left: 20% ;
+  }
+  
+  .span3 {
+    margin-left: 18% ;
+  }
+
+}

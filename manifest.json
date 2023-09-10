@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Weather Watch",
+    "version": "1.0",
+    "description": "Check Weather information for any city",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "128": "weather.ico"
+    }
+    
+  }
+  
